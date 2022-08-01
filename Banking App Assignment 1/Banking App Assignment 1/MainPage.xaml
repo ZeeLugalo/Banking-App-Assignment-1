@@ -3,10 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Banking_App_Assignment_1.MainPage">
 
-    <StackLayout>
-        <Image Source ="capitec.jfif"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand"/>
+    <StackLayout BackgroundColor="IndianRed" >
+        
+        <Image Source ="capitec.jfif"/>
+
+        <Frame Padding="24" CornerRadius="0" BackgroundColor="Black">
+            <Label Text="Capitec" HorizontalTextAlignment="Center" TextColor="white" FontSize="36"/>
+        </Frame>
+        <Label Text="Bank Better Champion" x:Name="Capitec" FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Center"  TextColor="White" />
+        <Button Text="LOG IN" Clicked="Button_Clicked" BackgroundColor="IndianRed"/>
+        <Label Text="Forgot your Login PIN?" TextColor="White" />
+        <Label Text="Need help? Contact Us" TextColor="White"/>
+        <Button Text="Add to Goal" Clicked="Button_Clicked" BackgroundColor="IndianRed"/>
+        <Button Text="Pay Someone" Clicked="Button_Clicked" BackgroundColor="IndianRed"/>
+        <Button Text="Buy" Clicked="Button_Clicked" BackgroundColor="IndianRed"/>
+        <Button Text="Cash" Clicked="Button_Clicked" BackgroundColor="IndianRed"/>
+
     </StackLayout>
 </ContentPage>
                

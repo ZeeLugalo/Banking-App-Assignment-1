@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking App Assignment 1.An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking App Assignment 1.iOS", "Banking App Assignment 1\Banking App Assignment 1.iOS\Banking App Assignment 1.iOS.csproj", "{326B819A-9D05-4F21-89F1-46078CF6E145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking App Assignment 1", "Banking App Assignment 1\Banking App Assignment 1\Banking App Assignment 1.csproj", "{7A84DDA8-F69E-44AA-A387-F8A4307F053D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banking App Assignment 1", "Banking App Assignment 1\Banking App Assignment 1\Banking App Assignment 1.csproj", "{7A84DDA8-F69E-44AA-A387-F8A4307F053D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
